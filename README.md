@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 ![Image description](https://raw.githubusercontent.com/Azure/azure-relay/master/relay.png)
 # Azure-ServiceBus-Relay
 The Azure Relay service enables you to securely expose services that run in your corporate network to the public cloud.
