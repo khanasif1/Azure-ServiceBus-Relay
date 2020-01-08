@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="560" height="300" src="https://raw.githubusercontent.com/Azure/azure-relay/master/relay.png">
+  <img width="400" height="300" src="https://raw.githubusercontent.com/Azure/azure-relay/master/relay.png">
 </p>
 # Azure-ServiceBus-Relay
 The Azure Relay service enables you to securely expose services that run in your corporate network to the public cloud.
