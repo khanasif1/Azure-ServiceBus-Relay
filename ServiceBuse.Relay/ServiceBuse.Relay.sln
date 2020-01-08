@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.Relay.API", "ServiceBus.Relay.API\ServiceBus.Relay.API.csproj", "{76E8B128-B094-4003-9C20-324E71BD7523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBuse.Relay.Listner", "ServiceBuse.Relay.Listner\ServiceBuse.Relay.Listner.csproj", "{EC14AF95-789A-459A-BA0D-8EAD89436361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{251C2E03-5EFB-4B80-97A5-E5F7F9F1A569}"
+	ProjectSection(SolutionItems) = preProject
+		Client Table.sql = Client Table.sql
+		Seed.sql = Seed.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E8B128-B094-4003-9C20-324E71BD7523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E8B128-B094-4003-9C20-324E71BD7523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E8B128-B094-4003-9C20-324E71BD7523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E8B128-B094-4003-9C20-324E71BD7523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC14AF95-789A-459A-BA0D-8EAD89436361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC14AF95-789A-459A-BA0D-8EAD89436361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC14AF95-789A-459A-BA0D-8EAD89436361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC14AF95-789A-459A-BA0D-8EAD89436361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C647D5-C1DF-4F23-8A06-EE17BBBD66FA}
+	EndGlobalSection
+EndGlobal
