@@ -1,7 +1,4 @@
-﻿//https://www.sanjaybhagia.com/2018/11/28/accessing-wcf-service-via-azure-service-bus-relay-with-net-core/
-//https://docs.microsoft.com/en-us/azure/service-bus-relay/service-bus-dotnet-hybrid-app-using-service-bus-relay
-//au-aa02fhapp001
-namespace ProductsServer
+﻿namespace ProductsServer
 {
     using System;
     using System.Linq;
@@ -12,10 +9,24 @@ namespace ProductsServer
     using System.Net.Http;
     using System.IO;
 
-    // Implement the IProducts interface.
-    //class ProductsService : IProducts
+    class Program
+    {
+        // Define the Main() function in the service application.
+        static void Main(string[] args)
+        {
+            //var sh = new ServiceHost(typeof(ProductsService));
+            var sh = new ServiceHost(typeof(ClientsService));
+            sh.Open();
+
+            Console.WriteLine("Press ENTER to close");
+            Console.ReadLine();
+
+            sh.Close();
+        }
+    }
     class ClientsService : IClients
     {
+
 
         //// Populate array of products for display on website
         //ProductData[] products =
@@ -134,21 +145,6 @@ namespace ProductsServer
             }
             Console.WriteLine("File Action Completed");
             return true;
-        }
-    }
-    class Program
-    {
-        // Define the Main() function in the service application.
-        static void Main(string[] args)
-        {
-            //var sh = new ServiceHost(typeof(ProductsService));
-            var sh = new ServiceHost(typeof(ClientsService));
-            sh.Open();
-
-            Console.WriteLine("Press ENTER to close");
-            Console.ReadLine();
-
-            sh.Close();
         }
     }
 }
