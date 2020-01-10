@@ -10,8 +10,8 @@ create WCF channel components that integrate with Service Bus in the cloud. For 
 
 <h3>PaaS Usage in Enterprises</h3>
 <p align="center">
-  <img width="400" height="300" src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R1.PNG">
-  <img width="400" height="300" src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R2.PNG">
+  <img  src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R1.PNG">
+  <img src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R2.PNG">
   <ul>
   <li>PaaS is deployed on open internet enterprises do not allow such resources to access enterprise contents</li>
   <li>All the benefits are missed due to accessibility</li>  
@@ -20,7 +20,7 @@ create WCF channel components that integrate with Service Bus in the cloud. For 
 </p>
 <h2>Soluition Azure  Service Bus WCF Relay</h3>
 <p align="center">
-  <img width="400" height="300" src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R3.PNG">
+  <img  src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R3.PNG">
   <ul>
   <li>Deploy WCF with relay binding in your enterprise network</li>
   <li>No enterprise security changes required eg: firewall, IP whitelisting</li>
@@ -29,7 +29,7 @@ create WCF channel components that integrate with Service Bus in the cloud. For 
 </p>
 <h2>How Service Bus WCF Relay works?</h3>
 <p align="center">
-  <img width="400" height="300" src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R4.PNG">
+  <img src="https://raw.githubusercontent.com/khanasif1/Azure-ServiceBus-Relay/master/ServiceBuse.Relay/Images/R4.PNG">
   <ul>
   <li>PaaS/ Internet resource connect to Azure Service Bus Relay</li>
   <li>Azure Service Bus relay is connected to WCF relay listener inside the enterprise network</li>
