@@ -47,5 +47,5 @@ create WCF channel components that integrate with Service Bus in the cloud. For 
 </ul>
 </p>
 <h3>Please check below youtube video, I have discussed in detail about the solution and how to setup the solution.</h3>
-<a href="https://www.youtube.com/watch?v=IrtEYLfo55M" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=xrUkdxY5jro&t=11s" target="_blank"></a>
+
